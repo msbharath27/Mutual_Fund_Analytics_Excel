@@ -127,5 +127,3 @@ If you’d like to collaborate, review, or recommend improvements, please feel f
 linkdin id - www.linkedin.com/in/bharath-m-s-734ba4334
 contact - 6380384673
 ---
-
-Just say **“Create full repo setup”** and I’ll generate it.
