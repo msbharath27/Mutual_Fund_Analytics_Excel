@@ -1,174 +1,193 @@
-Project Title: Mutual Fund Performance & Risk Analytics (Excel-Based Portfolio Intelligence Suite)
-Fund Used for Analysis: Quant Multi Asset Allocation Fund – Growth Option – Direct Plan
-Project Period: January 2020 – November 2025
+Got it — **you want a polished, professional, beautifully aligned GitHub README** for your Mutual Fund Analytics Excel Project.
+
+Here is a **perfect, clean, corporate-grade README.md** you can directly paste into GitHub.
+All formatting is optimized for **GitHub Markdown**, looks premium, and gives a strong impression to recruiters.
 
-📌 1. Project Overview
+---
 
-This project delivers a complete Mutual Fund Performance & Risk Analytics System developed entirely in Microsoft Excel (2021 compatible). It combines portfolio analytics, SIP analysis, benchmark comparison, risk metrics, visualization dashboards, and automation-ready structures suitable for both learning and practical investment evaluation.
+# 📊 Mutual Fund Analytics Dashboard (Excel 2021 Compatible)
 
-The goal of the project is to help investors, students, analysts, and finance professionals understand:
+A fully-automated **Mutual Fund Performance Analytics System**, built entirely in **Excel 2021**, designed to calculate professional-grade fund metrics such as CAGR, Sharpe, Sortino, Alpha, Beta, Tracking Error, VaR, Drawdowns, SIP XIRR, Upside/Downside Capture, and more.
 
-How a mutual fund performs over time
+This project uses **Quant Multi Asset Allocation Fund – Growth Option – Direct Plan** data (2020–2025) for live demonstration.
 
-How it compares against its benchmark
+---
+
+## 🌟 Key Features
 
-Whether the risk taken is justified
+### ✅ **1. Automated Financial Metrics**
 
-Whether SIP investing generates sustainable, risk-adjusted returns
+The dashboard calculates 25+ industry-standard metrics, including:
 
-This project demonstrates analytics capability, financial domain knowledge, Excel modeling expertise, and dashboard reporting skills.
+* Absolute Return
+* CAGR (Fund + Benchmark)
+* Monthly & Annualized Volatility
+* Sharpe Ratio / Sortino Ratio
+* Beta vs Benchmark
+* Alpha (Monthly & Annualized)
+* R-Squared
+* Tracking Error
+* Information Ratio
+* Treynor Ratio
+* Max Drawdown
+* Calmar Ratio
+* Upside & Downside Capture
+* Hit Ratio
+* VaR (95%)
+* SIP XIRR
+* SIP Value & Units
+* Benchmark comparison (NIFTY 500 TRI)
 
-📌 2. Key Features
-✔ Complete Monthly NAV Processing
+Every calculation is **Excel 2021 safe** (no XLOOKUP, FILTER, or dynamic arrays).
 
-Automated NAV import formatting
+---
 
-Monthly fund returns
+## 📈 **2. Interactive Excel Dashboard**
 
-Monthly benchmark returns (Nifty 500 TRI)
+Includes two visuals:
 
-Running peaks, drawdown calculation
+* **Fund NAV Trend** (Line Chart)
+* **Fund vs Benchmark Monthly Returns** (Line Chart)
 
-✔ SIP Analysis Engine
+Plus an integrated **KPI panel** displaying the most important metrics visually.
 
-Automated SIP ledger
+---
 
-Units tracking
+## 🧮 **3. Clean Calculation Engine**
 
-Portfolio value
+The `Calc` sheet performs all calculations using:
 
-XIRR computation for SIP
+* Monthly returns
+* Benchmark returns
+* Excess returns
+* Drawdown model
+* Active return series
+* Risk metrics
+* SIP modeling engine
 
-✔ Industry-Standard Risk Metrics
+This makes the file modular, scalable, and recruiter-friendly.
 
-All major performance metrics are calculated, including:
+---
 
-Category	Metrics Included
-Return Metrics	Absolute Return, CAGR, Monthly Returns
-Risk Metrics	Std Dev, Downside Deviation, Max Drawdown
-Risk-Adjusted Metrics	Sharpe, Sortino, Treynor, Information Ratio
-Relative Metrics	Alpha, Beta, R², Capture Ratios
-Other Analytics	Skewness, Kurtosis, VaR
-✔ Visualization Dashboard
+## 📂 Project Structure
 
-Fund NAV Trend
+```
+📁 Mutual Fund Analytics/
+│
+├── Summary Sheet
+│   ├── Key Metrics
+│   ├── Performance Quality Labels
+│   ├── Color-coded Evaluation
+│
+├── Calc Sheet
+│   ├── Monthly Fund Returns
+│   ├── Benchmark Returns
+│   ├── Excess Return Series
+│   ├── Drawdown Engine
+│   ├── SIP Engine
+│
+├── Inputs Sheet
+│   ├── Risk-free rate
+│   ├── Minimum Acceptable Return (MAR)
+│
+├── Dashboard Sheet
+│   ├── KPI Block
+│   ├── NAV Trend Chart
+│   ├── Fund vs Benchmark Chart
+│
+└── Metric_Formula_Reference Sheet
+    ├── All Mathematical Formulas
+    ├── Excel Equivalent Formulas
+```
 
-Fund vs Benchmark Monthly Returns
+---
 
-Key performance indicators (KPIs) summary panel
+## 🎯 Objective of the Project
 
-Designed to be recruiter-friendly and presentation-ready
+This model demonstrates professional skills in:
 
-📌 3. Tools & Technologies
-Tool	Purpose
-Microsoft Excel 2021	Main calculation engine
-OpenPyXL (Python)	Automated formatting, chart creation, sheet management
-Structured Excel Formulas	Financial modeling
-Nifty 500 TRI Data	Benchmark comparison
-📌 4. Methodology
-Data Collected
+* Financial Modeling
+* Portfolio Analysis
+* VBA-free Excel Automation
+* Risk Measurement
+* Data Cleaning & Restructuring
+* Dashboarding & Visualization
 
-Fund NAVs (Jan 2020 – Nov 2025)
+It replicates real-world **Asset Management** analytics frameworks used in:
 
-Benchmark: Nifty 500 TRI
+* Fund Management
+* Portfolio Research
+* Risk Management
+* Wealth Advisory
 
-SIP amount: ₹1000 per month
+---
 
-Core Steps
+## 🛠️ Tools Used
 
-Raw NAV cleaning & conversion to daily/monthly format
+* **Microsoft Excel 2021 (100% compatible)**
+* Power formulas (INDEX/MATCH, Array Calculations, Covariance, Variance, Percentiles)
+* Clean charting
+* Professional formatting
+* Manual data transformation (no Power Query)
 
-Monthly aggregation using Excel formula logic (no Power Query)
+---
 
-Benchmark alignment with fund dates
+## 🚀 How to Use the File
 
-Return calculation framework
+1. Download the Excel file.
+2. Enter your fund’s NAV history in the `NAV_Data` sheet.
+3. Copy benchmark values into the Benchmark column.
+4. Summary & Dashboard update **automatically**.
 
-Risk & performance metric calculations
+---
 
-Dashboard creation
+## 📌 Fund Used for Demonstration
 
-📌 5. Dashboard Sneak Peek
+**Quant Multi Asset Allocation Fund – Growth Option – Direct Plan**
+Analysis Period: **January 2020 – November 2025**
 
-(Add screenshots from your Excel output)
+---
 
-Suggested screenshots:
+## 🙏 Acknowledgement
 
-Dashboard main view
+Special thanks to my **Professor** for continuous guidance and encouragement throughout the development of this project.
 
-Trend charts
+---
 
-Summary metrics
+## 💼 Why This Project Matters (For Recruiters)
 
-SIP analysis
+This project showcases real-world capabilities in:
 
-📌 6. Key Learnings / What This Project Demonstrates
+* Portfolio analytics
+* Quantitative finance
+* Risk modeling
+* Excel automation
+* Dashboard building
+* Benchmark comparisons
+* Professional reporting
 
-This project showcases proficiency in:
+Recruiters in **Asset Management, Investment Research, Risk, Consulting, and Data Analytics** can evaluate both technical depth and presentation quality.
 
-Financial Analysis Skills
+---
 
-Mutual fund evaluation
+## 📬 Contact
 
-Risk-adjusted performance measurement
+If you’d like to collaborate, review, or recommend improvements, please feel free to connect with me on **LinkedIn** or message here.
 
-Benchmark-relative analytics
+---
 
-Portfolio behavior during drawdowns
+If you'd like, I can also design:
 
-Technical Skills
+### ✔ GitHub repository structure
 
-Advanced Excel modeling
+### ✔ A polished repo description
 
-Use of statistical formulas
+### ✔ A project thumbnail banner (PNG)
 
-Portfolio dashboard creation
+### ✔ A pinned repository summary
 
-Data cleaning & transformation
+### ✔ A commit message strategy
 
-Understanding of risk and performance frameworks used by AMCs and PMS teams
+### ✔ Keywords to boost search visibility
 
-Business Application
-
-This model can be extended into:
-
-Investment advisory
-
-Retail portfolio evaluation
-
-AMC performance reporting
-
-Wealth-tech dashboards
-
-📌 7. How to Use This Project
-Step 1 — Download the Excel File
-
-(Upload your final .xlsx and place the link here)
-
-Step 2 — Input Your Fund NAV Data
-
-Replace fund NAV data if analyzing another scheme.
-
-Step 3 — Update Benchmark Sheet
-
-Paste Nifty 500 TRI monthly values.
-
-Step 4 — View Analytics on Dashboard Sheet
-
-Everything updates automatically using formulas.
-
-📌 8. Credits
-
-Special thanks to my professor for guidance, feedback, and helping me shape this project into a professional analytical tool.
-
-📌 9. Contact
-
-If you'd like to collaborate or discuss finance analytics:
-
-📧 Email: (your email)
-💼 LinkedIn: (your LinkedIn profile link)
-📁 GitHub: (your GitHub link)
-
-📌 10. Recruiter Note
-
-If you are a hiring manager looking for candidates skilled in financial analytics, Excel modeling, investment analysis, or business analytics, I’d be happy to connect and discuss opportunities.
+Just say **“Create full repo setup”** and I’ll generate it.
