@@ -93,6 +93,8 @@ It replicates real-world **Asset Management** analytics frameworks used in:
 ## 🚀 How to Use the File
 
 1. Download the Excel file.
+   ## 📂 Download the Excel File
+➡️ [Click here to download the full Excel model](Downloads/Mutual_Fund_Analysis_Final.xlsx)
 2. Enter your fund’s NAV history in the `NAV_Data` sheet.
 3. Copy benchmark values into the Benchmark column.
 4. Summary & Dashboard update **automatically**.
