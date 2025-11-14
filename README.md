@@ -1,99 +1,174 @@
-Fund Analyzed: Quant Multi Asset Allocation Fund – Growth Option – Direct Plan
-Period: Jan 2020 – Nov 2025
+Project Title: Mutual Fund Performance & Risk Analytics (Excel-Based Portfolio Intelligence Suite)
+Fund Used for Analysis: Quant Multi Asset Allocation Fund – Growth Option – Direct Plan
+Project Period: January 2020 – November 2025
 
-A full analytics framework built in Microsoft Excel 2021 using only legacy-compatible formulas (Index/Match, Stdev.S, Covariance, etc.).
-This project calculates every major performance metric used in Portfolio Management & Quant Finance.
+📌 1. Project Overview
 
-🧮 Key Features
+This project delivers a complete Mutual Fund Performance & Risk Analytics System developed entirely in Microsoft Excel (2021 compatible). It combines portfolio analytics, SIP analysis, benchmark comparison, risk metrics, visualization dashboards, and automation-ready structures suitable for both learning and practical investment evaluation.
 
-✔ Complete return analytics
-✔ Risk analytics (Sharpe, Sortino, Beta, Alpha)
-✔ Benchmark comparison using Nifty 500 TRI
-✔ Max Drawdown & Calmar Ratio
-✔ Upside/Downside Capture
-✔ Tracking Error & Information Ratio
-✔ SIP XIRR engine
-✔ Fully automated dashboard
-✔ Excel-2021 compatible formulas (no XLOOKUP/FILTER/UNIQUE)
+The goal of the project is to help investors, students, analysts, and finance professionals understand:
 
-📈 Dashboard Highlights
+How a mutual fund performs over time
+
+How it compares against its benchmark
+
+Whether the risk taken is justified
+
+Whether SIP investing generates sustainable, risk-adjusted returns
+
+This project demonstrates analytics capability, financial domain knowledge, Excel modeling expertise, and dashboard reporting skills.
+
+📌 2. Key Features
+✔ Complete Monthly NAV Processing
+
+Automated NAV import formatting
+
+Monthly fund returns
+
+Monthly benchmark returns (Nifty 500 TRI)
+
+Running peaks, drawdown calculation
+
+✔ SIP Analysis Engine
+
+Automated SIP ledger
+
+Units tracking
+
+Portfolio value
+
+XIRR computation for SIP
+
+✔ Industry-Standard Risk Metrics
+
+All major performance metrics are calculated, including:
+
+Category	Metrics Included
+Return Metrics	Absolute Return, CAGR, Monthly Returns
+Risk Metrics	Std Dev, Downside Deviation, Max Drawdown
+Risk-Adjusted Metrics	Sharpe, Sortino, Treynor, Information Ratio
+Relative Metrics	Alpha, Beta, R², Capture Ratios
+Other Analytics	Skewness, Kurtosis, VaR
+✔ Visualization Dashboard
 
 Fund NAV Trend
 
-Professional formatting
+Fund vs Benchmark Monthly Returns
 
-Designed for Portfolio Reporting & Analyst roles
+Key performance indicators (KPIs) summary panel
 
-📘 Technical Metrics Covered
+Designed to be recruiter-friendly and presentation-ready
 
-CAGR (Fund & Benchmark)
+📌 3. Tools & Technologies
+Tool	Purpose
+Microsoft Excel 2021	Main calculation engine
+OpenPyXL (Python)	Automated formatting, chart creation, sheet management
+Structured Excel Formulas	Financial modeling
+Nifty 500 TRI Data	Benchmark comparison
+📌 4. Methodology
+Data Collected
 
-Absolute Return
+Fund NAVs (Jan 2020 – Nov 2025)
 
-Average Monthly Return
+Benchmark: Nifty 500 TRI
 
-Stdev Monthly & Annualized
+SIP amount: ₹1000 per month
 
-Sharpe Ratio
+Core Steps
 
-Sortino Ratio
+Raw NAV cleaning & conversion to daily/monthly format
 
-Beta
+Monthly aggregation using Excel formula logic (no Power Query)
 
-Alpha Monthly & Annualised
+Benchmark alignment with fund dates
 
-R-Squared
+Return calculation framework
 
-Tracking Error
+Risk & performance metric calculations
 
-Information Ratio
+Dashboard creation
 
-Treynor Ratio
+📌 5. Dashboard Sneak Peek
 
-Max Drawdown
+(Add screenshots from your Excel output)
 
-Calmar Ratio
+Suggested screenshots:
 
-Upside/Downside Capture
+Dashboard main view
 
-Hit Ratio
+Trend charts
 
-Skewness
+Summary metrics
 
-Kurtosis
+SIP analysis
 
-Historical VaR
+📌 6. Key Learnings / What This Project Demonstrates
 
-SIP XIRR
+This project showcases proficiency in:
 
-🛠 Tools Used
+Financial Analysis Skills
 
-Excel 2021
+Mutual fund evaluation
 
-Power Query
+Risk-adjusted performance measurement
 
-Line Charts & Comparative Charts
+Benchmark-relative analytics
 
-Excel Statistical Functions
+Portfolio behavior during drawdowns
 
-🎯 Purpose of This Project
+Technical Skills
 
-To demonstrate end-to-end skills in:
+Advanced Excel modeling
 
-Financial Analytics
+Use of statistical formulas
 
-Portfolio Risk Management
+Portfolio dashboard creation
 
-Excel Modelling
+Data cleaning & transformation
 
-Data Cleaning
+Understanding of risk and performance frameworks used by AMCs and PMS teams
 
-Investment Performance Reporting
+Business Application
 
-Quantitative Analysis
+This model can be extended into:
 
-📬 Contact
+Investment advisory
 
-If you are a recruiter or finance professional and would like to discuss this project or opportunities
-Email: msbharath617@gmail.com
-LinkedIn: www.linkedin.com/in/bharath-m-s-734ba4334
+Retail portfolio evaluation
+
+AMC performance reporting
+
+Wealth-tech dashboards
+
+📌 7. How to Use This Project
+Step 1 — Download the Excel File
+
+(Upload your final .xlsx and place the link here)
+
+Step 2 — Input Your Fund NAV Data
+
+Replace fund NAV data if analyzing another scheme.
+
+Step 3 — Update Benchmark Sheet
+
+Paste Nifty 500 TRI monthly values.
+
+Step 4 — View Analytics on Dashboard Sheet
+
+Everything updates automatically using formulas.
+
+📌 8. Credits
+
+Special thanks to my professor for guidance, feedback, and helping me shape this project into a professional analytical tool.
+
+📌 9. Contact
+
+If you'd like to collaborate or discuss finance analytics:
+
+📧 Email: (your email)
+💼 LinkedIn: (your LinkedIn profile link)
+📁 GitHub: (your GitHub link)
+
+📌 10. Recruiter Note
+
+If you are a hiring manager looking for candidates skilled in financial analytics, Excel modeling, investment analysis, or business analytics, I’d be happy to connect and discuss opportunities.
