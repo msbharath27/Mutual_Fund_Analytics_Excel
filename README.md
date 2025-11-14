@@ -1,10 +1,3 @@
-Got it — **you want a polished, professional, beautifully aligned GitHub README** for your Mutual Fund Analytics Excel Project.
-
-Here is a **perfect, clean, corporate-grade README.md** you can directly paste into GitHub.
-All formatting is optimized for **GitHub Markdown**, looks premium, and gives a strong impression to recruiters.
-
----
-
 # 📊 Mutual Fund Analytics Dashboard (Excel 2021 Compatible)
 
 A fully-automated **Mutual Fund Performance Analytics System**, built entirely in **Excel 2021**, designed to calculate professional-grade fund metrics such as CAGR, Sharpe, Sortino, Alpha, Beta, Tracking Error, VaR, Drawdowns, SIP XIRR, Upside/Downside Capture, and more.
@@ -47,9 +40,7 @@ Every calculation is **Excel 2021 safe** (no XLOOKUP, FILTER, or dynamic arrays)
 Includes two visuals:
 
 * **Fund NAV Trend** (Line Chart)
-* **Fund vs Benchmark Monthly Returns** (Line Chart)
-
-Plus an integrated **KPI panel** displaying the most important metrics visually.
+* **Benchmark value** (Line Chart)
 
 ---
 
@@ -66,39 +57,6 @@ The `Calc` sheet performs all calculations using:
 * SIP modeling engine
 
 This makes the file modular, scalable, and recruiter-friendly.
-
----
-
-## 📂 Project Structure
-
-```
-📁 Mutual Fund Analytics/
-│
-├── Summary Sheet
-│   ├── Key Metrics
-│   ├── Performance Quality Labels
-│   ├── Color-coded Evaluation
-│
-├── Calc Sheet
-│   ├── Monthly Fund Returns
-│   ├── Benchmark Returns
-│   ├── Excess Return Series
-│   ├── Drawdown Engine
-│   ├── SIP Engine
-│
-├── Inputs Sheet
-│   ├── Risk-free rate
-│   ├── Minimum Acceptable Return (MAR)
-│
-├── Dashboard Sheet
-│   ├── KPI Block
-│   ├── NAV Trend Chart
-│   ├── Fund vs Benchmark Chart
-│
-└── Metric_Formula_Reference Sheet
-    ├── All Mathematical Formulas
-    ├── Excel Equivalent Formulas
-```
 
 ---
 
@@ -144,18 +102,11 @@ It replicates real-world **Asset Management** analytics frameworks used in:
 ## 📌 Fund Used for Demonstration
 
 **Quant Multi Asset Allocation Fund – Growth Option – Direct Plan**
-Analysis Period: **January 2020 – November 2025**
+Analysis Period: **January 2020 – 11 November 2025**
 
 ---
 
-## 🙏 Acknowledgement
-
-Special thanks to my **Professor** for continuous guidance and encouragement throughout the development of this project.
-
----
-
-## 💼 Why This Project Matters (For Recruiters)
-
+## 💼 Why This Project Matters 
 This project showcases real-world capabilities in:
 
 * Portfolio analytics
@@ -173,21 +124,8 @@ Recruiters in **Asset Management, Investment Research, Risk, Consulting, and Dat
 ## 📬 Contact
 
 If you’d like to collaborate, review, or recommend improvements, please feel free to connect with me on **LinkedIn** or message here.
-
+linkdin id - www.linkedin.com/in/bharath-m-s-734ba4334
+contact - 6380384673
 ---
-
-If you'd like, I can also design:
-
-### ✔ GitHub repository structure
-
-### ✔ A polished repo description
-
-### ✔ A project thumbnail banner (PNG)
-
-### ✔ A pinned repository summary
-
-### ✔ A commit message strategy
-
-### ✔ Keywords to boost search visibility
 
 Just say **“Create full repo setup”** and I’ll generate it.
