@@ -40,7 +40,7 @@ Every calculation is **Excel 2021 safe** (no XLOOKUP, FILTER, or dynamic arrays)
 Includes two visuals:
 
 * **Fund NAV Trend** (Line Chart)
-* **Benchmark value** (Line Chart)
+* **Benchmark value** (Graph Chart)
 
 ---
 
